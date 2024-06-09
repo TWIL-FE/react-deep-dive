@@ -60,6 +60,13 @@ Prettier는 자바스크립트, HTML, CSS, 마크다운, JSON 등 다양한 언�
 
 \*테스트란 개발자가 만든 프로그램이 코딩을 한 의도대로 작동하는지 확인하는 일련의 작업
 
+** jest vs react testing library **
+
+- Jest는 테스트 실행기 및 테스팅 프레임워크로서, 다양한 유형의 테스트(유닛 테스트, 통합 테스트 등)를 작성하고 실행하는데 중점을 둔다.
+- React Testing Library는 React 컴포넌트의 렌더링과 사용자 상호작용을 테스트하는 데 중점을 두며, 실제 사용자의 행동을 모방하는 테스트를 작성하는 데 도움을 준다.
+
+보통 이 두 라이브러리는 같이 사용되며, Jest를 사용해서 테스트 환경을 설정하고, React Testing Library를 사용해서 React 컴포넌트의 동작을 테스트하는 방식으로 통합된다.
+
 React Testing Library란 DOM Testing Library를 기반으로 만들어진 테스팅 라이브러리로, 리액트를 기반으로 한 테스트를 수행하기 위해 만들어짐
 
 - DOM Testing Library
